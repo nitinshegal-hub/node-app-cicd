@@ -1,10 +1,17 @@
 docker build -t api .
 docker run -it --rm -p 8080:8080 api
+OR
+docker build -t nitinshegal/node-cicd:1.0 .
+docker login
+docker push nitinshegal/node-cicd:1.0
 
 docker compose up -d --build
 docker compose down
 
 
+DOCKER_USERNAME = nitinshegal
+DOCKER_PASSWORD = ********
+ 
 npx gitignore Node
 >git add .
 >git commit -m "Initial commit"

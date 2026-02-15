@@ -1,8 +1,7 @@
 services:
-  app: 
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    restart: unless-stopped
+  nodeapp:
+    image: nitinshegal/node-cicd:1.0
+    container_name: nodeapp_cicd
+    restart: always
     ports:
-      - "8080:8080"
+      - "3000:3000"
