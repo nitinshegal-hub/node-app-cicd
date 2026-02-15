@@ -11,6 +11,10 @@ docker compose down
 
 DOCKER_USERNAME = nitinshegal
 DOCKER_PASSWORD = Qwerty@123
+EC2_HOST =  IP address of EC2 instance
+EC2_USER = ubuntu
+EC2_KEY = upload pem file
+
 
 npx gitignore Node
 >git add .
