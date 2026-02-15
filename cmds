@@ -10,8 +10,8 @@ docker compose down
 
 
 DOCKER_USERNAME = nitinshegal
-DOCKER_PASSWORD = ********
- 
+DOCKER_PASSWORD = Qwerty@123
+
 npx gitignore Node
 >git add .
 >git commit -m "Initial commit"
