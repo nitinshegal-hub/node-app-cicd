@@ -33,4 +33,4 @@ jobs:
           docker pull ${{ secrets.DOCKER_USERNAME }}/node-cicd:1.0
           docker stop nodeapp || true
           docker rm nodeapp || true
-          docker run -d -p 80:3000 --name nodeapp ${{ secrets.DOCKER_USERNAME }}/node-cicd:1.0
+          docker run -d -p 3000:3000 --name nodeapp ${{ secrets.DOCKER_USERNAME }}/node-cicd:1.0
