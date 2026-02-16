@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World! We are good to go with Docker and CI/CD using GitHub Actions!');
 });
 
+
 app.listen(PORT, () => {
   console.log('Server is running on port is 3000');
 });
